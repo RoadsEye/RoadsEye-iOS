@@ -1,0 +1,631 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		A07469CD2D4D7D0500D2F047 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A07469CC2D4D7D0500D2F047 /* CoreLocation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		A008297D2D495CA9001AF826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00829642D495CA7001AF826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A008296B2D495CA7001AF826;
+			remoteInfo = RoadsEye;
+		};
+		A00829872D495CA9001AF826 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = A00829642D495CA7001AF826 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = A008296B2D495CA7001AF826;
+			remoteInfo = RoadsEye;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		A008296C2D495CA7001AF826 /* RoadsEye.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RoadsEye.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A008297C2D495CA9001AF826 /* RoadsEyeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadsEyeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A00829862D495CA9001AF826 /* RoadsEyeUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RoadsEyeUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A07469CC2D4D7D0500D2F047 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		A0C1A5DE2E80000000000001 /* Signing.xcconfig */ = {isa = PBXFileReference; lastKnownFileType = text.xcconfig; path = Signing.xcconfig; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		A0469DAE2D49938E0047DF43 /* Exceptions for "RoadsEye" folder in "RoadsEye" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = A008296B2D495CA7001AF826 /* RoadsEye */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		A008296E2D495CA7001AF826 /* RoadsEye */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				A0469DAE2D49938E0047DF43 /* Exceptions for "RoadsEye" folder in "RoadsEye" target */,
+			);
+			path = RoadsEye;
+			sourceTree = "<group>";
+		};
+		A008297F2D495CA9001AF826 /* RoadsEyeTests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadsEyeTests;
+			sourceTree = "<group>";
+		};
+		A00829892D495CA9001AF826 /* RoadsEyeUITests */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = RoadsEyeUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		A00829692D495CA7001AF826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A07469CD2D4D7D0500D2F047 /* CoreLocation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00829792D495CA9001AF826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00829832D495CA9001AF826 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		A00829632D495CA7001AF826 = {
+			isa = PBXGroup;
+			children = (
+				A0C1A5DE2E80000000000001 /* Signing.xcconfig */,
+				A008296E2D495CA7001AF826 /* RoadsEye */,
+				A008297F2D495CA9001AF826 /* RoadsEyeTests */,
+				A00829892D495CA9001AF826 /* RoadsEyeUITests */,
+				A07469CB2D4D7D0500D2F047 /* Frameworks */,
+				A008296D2D495CA7001AF826 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		A008296D2D495CA7001AF826 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				A008296C2D495CA7001AF826 /* RoadsEye.app */,
+				A008297C2D495CA9001AF826 /* RoadsEyeTests.xctest */,
+				A00829862D495CA9001AF826 /* RoadsEyeUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		A07469CB2D4D7D0500D2F047 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				A07469CC2D4D7D0500D2F047 /* CoreLocation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		A008296B2D495CA7001AF826 /* RoadsEye */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00829902D495CA9001AF826 /* Build configuration list for PBXNativeTarget "RoadsEye" */;
+			buildPhases = (
+				A00829682D495CA7001AF826 /* Sources */,
+				A00829692D495CA7001AF826 /* Frameworks */,
+				A008296A2D495CA7001AF826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				A008296E2D495CA7001AF826 /* RoadsEye */,
+			);
+			name = RoadsEye;
+			productName = RoadsEye;
+			productReference = A008296C2D495CA7001AF826 /* RoadsEye.app */;
+			productType = "com.apple.product-type.application";
+		};
+		A008297B2D495CA9001AF826 /* RoadsEyeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00829932D495CA9001AF826 /* Build configuration list for PBXNativeTarget "RoadsEyeTests" */;
+			buildPhases = (
+				A00829782D495CA9001AF826 /* Sources */,
+				A00829792D495CA9001AF826 /* Frameworks */,
+				A008297A2D495CA9001AF826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A008297E2D495CA9001AF826 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A008297F2D495CA9001AF826 /* RoadsEyeTests */,
+			);
+			name = RoadsEyeTests;
+			packageProductDependencies = (
+			);
+			productName = RoadsEyeTests;
+			productReference = A008297C2D495CA9001AF826 /* RoadsEyeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		A00829852D495CA9001AF826 /* RoadsEyeUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A00829962D495CA9001AF826 /* Build configuration list for PBXNativeTarget "RoadsEyeUITests" */;
+			buildPhases = (
+				A00829822D495CA9001AF826 /* Sources */,
+				A00829832D495CA9001AF826 /* Frameworks */,
+				A00829842D495CA9001AF826 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A00829882D495CA9001AF826 /* PBXTargetDependency */,
+			);
+			fileSystemSynchronizedGroups = (
+				A00829892D495CA9001AF826 /* RoadsEyeUITests */,
+			);
+			name = RoadsEyeUITests;
+			packageProductDependencies = (
+			);
+			productName = RoadsEyeUITests;
+			productReference = A00829862D495CA9001AF826 /* RoadsEyeUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		A00829642D495CA7001AF826 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 2600;
+				TargetAttributes = {
+					A008296B2D495CA7001AF826 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					A008297B2D495CA9001AF826 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A008296B2D495CA7001AF826;
+					};
+					A00829852D495CA9001AF826 = {
+						CreatedOnToolsVersion = 16.2;
+						TestTargetID = A008296B2D495CA7001AF826;
+					};
+				};
+			};
+			buildConfigurationList = A00829672D495CA7001AF826 /* Build configuration list for PBXProject "RoadsEye" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = A00829632D495CA7001AF826;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = A008296D2D495CA7001AF826 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				A008296B2D495CA7001AF826 /* RoadsEye */,
+				A008297B2D495CA9001AF826 /* RoadsEyeTests */,
+				A00829852D495CA9001AF826 /* RoadsEyeUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		A008296A2D495CA7001AF826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A008297A2D495CA9001AF826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00829842D495CA9001AF826 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		A00829682D495CA7001AF826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00829782D495CA9001AF826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A00829822D495CA9001AF826 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		A008297E2D495CA9001AF826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A008296B2D495CA7001AF826 /* RoadsEye */;
+			targetProxy = A008297D2D495CA9001AF826 /* PBXContainerItemProxy */;
+		};
+		A00829882D495CA9001AF826 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = A008296B2D495CA7001AF826 /* RoadsEye */;
+			targetProxy = A00829872D495CA9001AF826 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		A008298E2D495CA9001AF826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C1A5DE2E80000000000001 /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		A008298F2D495CA9001AF826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A0C1A5DE2E80000000000001 /* Signing.xcconfig */;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				STRING_CATALOG_GENERATE_SYMBOLS = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		A00829912D495CA9001AF826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3.2.0;
+				DEVELOPMENT_ASSET_PATHS = "\"RoadsEye/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoadsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Road's Eye";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "RoadsEye requires camera access to record video for your dashcam functionality.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "RoadsEye needs background location access to continue tracking speed and location for crash detection while the app is in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location even when the app is in the background to continue tracking your movements.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RoadsEye needs location data to track speed and location for crash detection and video geotagging.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "RoadsEye needs microphone access to enable voice command recognition for controlling the dashcam.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "RoadsEye requires motion data to detect crashes or sudden speed changes for enhanced safety features.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "RoadsEye needs permission to save recorded videos to your Photos library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to save recorded videos to your photo library";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "RoadsEye needs speech recognition permission to process voice commands for controlling the dashcam, such as clipping or starting recordings.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		A00829922D495CA9001AF826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 3.2.0;
+				DEVELOPMENT_ASSET_PATHS = "\"RoadsEye/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = RoadsEye/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = "Road's Eye";
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_LSSupportsOpeningDocumentsInPlace = YES;
+				INFOPLIST_KEY_NSCameraUsageDescription = "RoadsEye requires camera access to record video for your dashcam functionality.";
+				INFOPLIST_KEY_NSLocationAlwaysAndWhenInUseUsageDescription = "RoadsEye needs background location access to continue tracking speed and location for crash detection while the app is in the background.";
+				INFOPLIST_KEY_NSLocationAlwaysUsageDescription = "We need your location even when the app is in the background to continue tracking your movements.";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "RoadsEye needs location data to track speed and location for crash detection and video geotagging.";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "RoadsEye needs microphone access to enable voice command recognition for controlling the dashcam.";
+				INFOPLIST_KEY_NSMotionUsageDescription = "RoadsEye requires motion data to detect crashes or sudden speed changes for enhanced safety features.";
+				INFOPLIST_KEY_NSPhotoLibraryAddUsageDescription = "RoadsEye needs permission to save recorded videos to your Photos library.";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "This app needs access to save recorded videos to your photo library";
+				INFOPLIST_KEY_NSSpeechRecognitionUsageDescription = "RoadsEye needs speech recognition permission to process voice commands for controlling the dashcam, such as clipping or starting recordings.";
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIRequiresFullScreen = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait";
+				INFOPLIST_KEY_UISupportsDocumentBrowser = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 3.2.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		A00829942D495CA9001AF826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadsEye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadsEye";
+			};
+			name = Debug;
+		};
+		A00829952D495CA9001AF826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).tests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RoadsEye.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/RoadsEye";
+			};
+			name = Release;
+		};
+		A00829972D495CA9001AF826 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).uitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadsEye;
+			};
+			name = Debug;
+		};
+		A00829982D495CA9001AF826 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "$(APP_BUNDLE_ID).uitests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RoadsEye;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		A00829672D495CA7001AF826 /* Build configuration list for PBXProject "RoadsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A008298E2D495CA9001AF826 /* Debug */,
+				A008298F2D495CA9001AF826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00829902D495CA9001AF826 /* Build configuration list for PBXNativeTarget "RoadsEye" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00829912D495CA9001AF826 /* Debug */,
+				A00829922D495CA9001AF826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00829932D495CA9001AF826 /* Build configuration list for PBXNativeTarget "RoadsEyeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00829942D495CA9001AF826 /* Debug */,
+				A00829952D495CA9001AF826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A00829962D495CA9001AF826 /* Build configuration list for PBXNativeTarget "RoadsEyeUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				A00829972D495CA9001AF826 /* Debug */,
+				A00829982D495CA9001AF826 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = A00829642D495CA7001AF826 /* Project object */;
+}

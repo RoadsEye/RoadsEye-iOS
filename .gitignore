@@ -1,0 +1,15 @@
+# macOS
+.DS_Store
+
+# Xcode user-specific data
+xcuserdata/
+*.xcuserstate
+DerivedData/
+build/
+
+# Local tooling
+.claude/settings.local.json
+
+
+# Personal signing settings
+Signing.local.xcconfig

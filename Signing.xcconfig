@@ -1,0 +1,13 @@
+// Signing settings shared by every target.
+//
+// Don't put your own team or bundle ID here. Copy
+// Signing.local.xcconfig.example to Signing.local.xcconfig and edit that
+// instead. It's ignored by git, so your signing details never get committed.
+
+// Your Apple Developer team ID (a free personal team works).
+DEVELOPMENT_TEAM =
+
+// Must be unique to you when building for a real device.
+APP_BUNDLE_ID = com.example.roadseye
+
+#include? "Signing.local.xcconfig"

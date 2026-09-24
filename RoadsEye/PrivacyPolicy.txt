@@ -1,0 +1,115 @@
+Road's Eye™ Privacy Policy
+
+Effective Date: June 27, 2025
+
+Last Updated: September 24, 2026
+
+Road's Eye™ ("Road's Eye," "App," "we," "our," or "us") respects your privacy and is committed to being transparent about how information is handled when you use our application.
+
+This Privacy Policy explains what information is processed by the App and your choices regarding that information.
+
+By downloading, installing, or using Road's Eye™, you acknowledge that you have read and understood this Privacy Policy.
+
+1. Overview
+
+Road's Eye™ works entirely on your device. Videos, recordings, audio, location information, settings, and other content generated through the App are stored locally on your device and are never transmitted to or stored by Road's Eye™.
+
+The App contains no advertising, no analytics, no crash reporting services, and no tracking of any kind. We do not operate any servers for the App, we do not create user accounts, and we do not know who you are.
+
+2. Open Source
+
+Road's Eye™ has been discontinued and its source code has been published at:
+
+https://github.com/RoadsEye/RoadsEye-iOS
+
+Anyone can read the source code to verify how the App handles information. No further updates to the App are expected; check the GitHub repository for more information.
+
+This Privacy Policy applies only to the App as released by Road's Eye™. Versions of the App built or modified by others may handle information differently, and Road's Eye™ is not responsible for them.
+
+3. Information Processed by the App
+
+All of the information below is processed only on your device.
+
+A. Location Information
+
+Road's Eye™ may access precise location information to show your speed, to support auto-record and crash detection, and to embed location data into recordings when you enable it.
+
+Location information is never sent to Road's Eye™ and is never sold.
+
+B. Camera, Microphone, Storage, and Device Permissions
+
+The App may request access to:
+
+• Camera access for recording video
+
+• Microphone and speech recognition access for voice commands (if enabled)
+
+• Photo Library access for saving recordings
+
+• Location access for speed display, GPS tagging, and related features
+
+• Motion and sensor access for crash detection
+
+• Notifications for letting you know when recordings are saved
+
+These permissions are used solely to provide App functionality and may be disabled at any time through your device settings, although doing so may limit functionality.
+
+C. Apple Services
+
+Some features use services built into iOS, which are governed by Apple's own privacy policy:
+
+• Siri and Shortcuts, if you use voice commands
+
+• Photos and Files, for saving and viewing recordings
+
+Road's Eye™ does not receive any information from these services.
+
+4. Information We Do Not Collect
+
+Road's Eye™ does not collect:
+
+• Your name, address, or phone number
+
+• Government-issued identification
+
+• Payment information
+
+• User account credentials
+
+• Advertising or device identifiers
+
+• Usage statistics or crash reports
+
+• Video, audio, or GPS recordings stored on your device
+
+• Any other personal information
+
+5. User-Controlled Content
+
+Videos, recordings, audio files, location metadata, settings, and other content generated through the App remain entirely under your control.
+
+You are solely responsible for managing, backing up, exporting, sharing, and deleting your recordings.
+
+If you choose to share or upload recordings to other services (such as cloud storage, social media, or messaging apps), those services are governed by their own privacy policies and terms. Road's Eye™ is not responsible for the privacy or security practices of any other service.
+
+6. Data Sharing and Sale
+
+Road's Eye™ does not collect personal information, and therefore does not sell, rent, share, or broker personal information.
+
+7. Data Security
+
+Because your data never leaves your device through the App, its security depends on your device. You are responsible for securing your device, maintaining backups, and protecting access to your recordings.
+
+No software or device can be guaranteed to be completely secure, and the App is no longer maintained or updated.
+
+8. Children's Privacy
+
+Road's Eye™ is not directed toward children under the age of 18. We do not collect personal information from anyone, including children.
+
+9. Changes to This Privacy Policy
+
+No further changes to this Privacy Policy are expected. If it is ever changed, the updated policy will be published in the GitHub repository listed in Section 2.
+
+10. More Information
+
+Road's Eye™ no longer offers support. For information about the App and its source code, visit: https://github.com/RoadsEye/RoadsEye-iOS

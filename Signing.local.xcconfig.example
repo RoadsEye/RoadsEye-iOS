@@ -1,0 +1,9 @@
+// Copy this file to Signing.local.xcconfig (same folder) and fill it in.
+// Signing.local.xcconfig is ignored by git.
+
+// Your team ID: Xcode → Settings → Accounts → select your account →
+// the ID shown next to your team, or developer.apple.com → Membership.
+DEVELOPMENT_TEAM = ABCDE12345
+
+// Any reverse-domain ID that's unique to you.
+APP_BUNDLE_ID = com.yourname.roadseye
